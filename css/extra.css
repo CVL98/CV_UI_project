@@ -1,0 +1,35 @@
+/* extra.css */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.arrow-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff00;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.arrow-button:hover {
+    color: #0056b3;
+}
+
+.number {
+    font-size: 24px;
+    margin: 0;
+}
+
+.container.card ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
