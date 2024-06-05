@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open website.html",
-            "file": "c:\\Users\\carlv\\Documents\\GitHub\\CV_UI_project\\website.html"
+            "name": "Open home.html",
+            "file": "c:\\Users\\carlv\\Documents\\GitHub\\CV_UI_project\\home.html"
         }
     ]
 }
