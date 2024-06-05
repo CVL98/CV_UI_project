@@ -1,5 +1,3 @@
-// GroupDetail.js
-
 'use strict';
 
 let url = new URL(window.location);
@@ -63,11 +61,10 @@ async function renderAdditionalInfo(data) {
     secondCard.appendChild(groupName);
     secondCard.appendChild(establishedYear);
     secondCard.appendChild(genre);
-    secondCard.appendChild(albumsHeader);
-    secondCard.appendChild(albumsList);
     secondCard.appendChild(artistsHeader);
     secondCard.appendChild(artistsList);
+    secondCard.appendChild(albumsHeader);
+    secondCard.appendChild(albumsList);
 }
 
 fetchAdditionalInfo(id);
-
